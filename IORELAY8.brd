@@ -23,18 +23,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -223,8 +223,8 @@
 <text x="44.45" y="30.258" size="1.016" layer="51">K</text>
 <text x="51.308" y="30.258" size="1.016" layer="51">K</text>
 <text x="58.42" y="30.258" size="1.016" layer="51">K</text>
-<text x="58.204" y="2.308" size="1.016" layer="51" rot="R90">K</text>
-<text x="54.348" y="2.492" size="1.016" layer="51" rot="R270">A</text>
+<text x="58.704" y="1.808" size="1.016" layer="51" rot="R90">K</text>
+<text x="53.848" y="2.492" size="1.016" layer="51" rot="R270">A</text>
 <text x="44.196" y="21.876" size="1.27" layer="21" ratio="16">5V</text>
 <text x="44.45" y="20.606" size="1.016" layer="21" ratio="16">COMPATIBLE</text>
 <wire x1="46.482" y1="22.638" x2="46.99" y2="22.13" width="0.3048" layer="21"/>
@@ -846,7 +846,7 @@ design rules under a new name.</description>
 <elements>
 <element name="R5" library="freetronics-master-v1" package="0603" value="10K" x="3.302" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.445" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="5.0292" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="6.0292" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q1" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="3.302" y="13.24" smashed="yes">
 <attribute name="NAME" x="2.4765" y="14.256" size="1.27" layer="25"/>
@@ -854,11 +854,11 @@ design rules under a new name.</description>
 </element>
 <element name="R3" library="freetronics-master-v1" package="0603" value="1K" x="3.302" y="8.668" smashed="yes">
 <attribute name="NAME" x="4.445" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="2.4892" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="3.4892" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R11" library="freetronics-master-v1" package="0603" value="10K" x="8.382" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.525" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="10.1092" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="11.1092" y="8.43" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q3" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="8.382" y="13.24" smashed="yes">
 <attribute name="NAME" x="7.5565" y="14.256" size="1.27" layer="25"/>
@@ -866,11 +866,11 @@ design rules under a new name.</description>
 </element>
 <element name="R9" library="freetronics-master-v1" package="0603" value="1K" x="8.382" y="8.668" smashed="yes">
 <attribute name="NAME" x="9.525" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="7.5692" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="8.5692" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R17" library="freetronics-master-v1" package="0603" value="10K" x="13.462" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.605" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.1892" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="16.1892" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q5" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="13.462" y="13.24" smashed="yes">
 <attribute name="NAME" x="12.6365" y="14.256" size="1.27" layer="25"/>
@@ -878,11 +878,11 @@ design rules under a new name.</description>
 </element>
 <element name="R15" library="freetronics-master-v1" package="0603" value="1K" x="13.462" y="8.668" smashed="yes">
 <attribute name="NAME" x="14.605" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="12.6492" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="14.1492" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R23" library="freetronics-master-v1" package="0603" value="10K" x="18.542" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.685" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="20.2692" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="21.2692" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q7" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="18.542" y="13.24" smashed="yes">
 <attribute name="NAME" x="17.7165" y="14.256" size="1.27" layer="25"/>
@@ -890,11 +890,11 @@ design rules under a new name.</description>
 </element>
 <element name="R21" library="freetronics-master-v1" package="0603" value="1K" x="18.542" y="8.668" smashed="yes">
 <attribute name="NAME" x="19.685" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="17.7292" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="19.2292" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R6" library="freetronics-master-v1" package="0603" value="10K" x="23.622" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.765" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="25.3492" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="26.3492" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q2" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="23.622" y="13.24" smashed="yes">
 <attribute name="NAME" x="22.7965" y="14.256" size="1.27" layer="25"/>
@@ -902,11 +902,11 @@ design rules under a new name.</description>
 </element>
 <element name="R4" library="freetronics-master-v1" package="0603" value="1K" x="23.622" y="8.668" smashed="yes">
 <attribute name="NAME" x="24.765" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="22.8092" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="23.8092" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R12" library="freetronics-master-v1" package="0603" value="10K" x="28.702" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.845" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="30.4292" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="31.4292" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q4" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="28.702" y="13.24" smashed="yes">
 <attribute name="NAME" x="27.8765" y="14.256" size="1.27" layer="25"/>
@@ -914,11 +914,11 @@ design rules under a new name.</description>
 </element>
 <element name="R10" library="freetronics-master-v1" package="0603" value="1K" x="28.702" y="8.668" smashed="yes">
 <attribute name="NAME" x="29.845" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="27.8892" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="29.3892" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R18" library="freetronics-master-v1" package="0603" value="10K" x="33.782" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.925" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="35.5092" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="36.5092" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q6" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="33.782" y="13.24" smashed="yes">
 <attribute name="NAME" x="32.9565" y="14.256" size="1.27" layer="25"/>
@@ -926,11 +926,11 @@ design rules under a new name.</description>
 </element>
 <element name="R16" library="freetronics-master-v1" package="0603" value="1K" x="33.782" y="8.668" smashed="yes">
 <attribute name="NAME" x="34.925" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="32.9692" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="34.4692" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R24" library="freetronics-master-v1" package="0603" value="10K" x="38.862" y="10.446" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.005" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="40.5892" y="9.43" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="41.5892" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q8" library="freetronics-master-v1" package="SOT23-3" value="2N7002" x="38.862" y="13.24" smashed="yes">
 <attribute name="NAME" x="38.2905" y="14.256" size="1.27" layer="25"/>
@@ -938,7 +938,7 @@ design rules under a new name.</description>
 </element>
 <element name="R22" library="freetronics-master-v1" package="0603" value="1K" x="38.862" y="8.668" smashed="yes">
 <attribute name="NAME" x="40.005" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="38.0492" y="7.906" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="39.0492" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="LED2" library="freetronics-master-v1" package="LED-0603" value="CH2/RED" x="15" y="31" smashed="yes">
 <attribute name="NAME" x="12.841" y="31.5588" size="1.27" layer="25"/>
@@ -958,19 +958,19 @@ design rules under a new name.</description>
 </element>
 <element name="R1" library="freetronics-master-v1" package="0603" value="1K" x="8" y="28.734" smashed="yes">
 <attribute name="NAME" x="7.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="7.238" y="27.2608" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="6.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R7" library="freetronics-master-v1" package="0603" value="1K" x="15" y="28.734" smashed="yes">
 <attribute name="NAME" x="14.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="14.238" y="27.2608" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="13.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R13" library="freetronics-master-v1" package="0603" value="1K" x="22" y="28.734" smashed="yes">
 <attribute name="NAME" x="21.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="21.238" y="27.2608" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="20.238" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R19" library="freetronics-master-v1" package="0603" value="1K" x="29" y="28.734" smashed="yes">
 <attribute name="NAME" x="28.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="28.238" y="27.2608" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="27.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="LED5" library="freetronics-master-v1" package="LED-0603" value="CH5/RED" x="36" y="31" smashed="yes">
 <attribute name="NAME" x="33.841" y="31.5588" size="1.27" layer="25"/>
@@ -990,19 +990,19 @@ design rules under a new name.</description>
 </element>
 <element name="R2" library="freetronics-master-v1" package="0603" value="1K" x="36" y="28.734" smashed="yes">
 <attribute name="NAME" x="35.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="35.238" y="27.2608" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="34.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R8" library="freetronics-master-v1" package="0603" value="1K" x="43" y="28.734" smashed="yes">
 <attribute name="NAME" x="42.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="42.238" y="27.2608" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="41.238" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R14" library="freetronics-master-v1" package="0603" value="1K" x="50" y="28.734" smashed="yes">
 <attribute name="NAME" x="49.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="49.238" y="27.2608" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="48.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R20" library="freetronics-master-v1" package="0603" value="1K" x="57" y="28.734" smashed="yes">
 <attribute name="NAME" x="56.111" y="26.702" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="56.238" y="27.0068" size="1.016" layer="27" font="vector"/>
+<attribute name="VALUE" x="55.238" y="27.0068" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="D1" library="freetronics-master-v1.1" package="SMB-DIODE" value="1N4004 SMB" x="3.302" y="19.336" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.413" y="18.701" size="1.27" layer="25"/>
@@ -1038,11 +1038,11 @@ design rules under a new name.</description>
 </element>
 <element name="LED17" library="freetronics-master-v1" package="LED-0603" value="PWR/GREEN" x="56.22" y="2.2" smashed="yes">
 <attribute name="NAME" x="56.0168" y="5.756" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="55.7628" y="11.09" size="1.016" layer="27" rot="R270"/>
+<attribute name="VALUE" x="48.41" y="3.2628" size="1.27" layer="27"/>
 </element>
 <element name="R25" library="freetronics-master-v1" package="0603" value="2K2" x="61.13" y="20.532" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.876" y="23.199" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="60.6728" y="23.834" size="1.016" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="59.166" y="21.1728" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="JP1" library="freetronics-master-v1" package="TERMINALBLOCK_3.5MM_8" value="" x="30.75" y="35.846" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.226" y="37.116" size="1.016" layer="25"/>
