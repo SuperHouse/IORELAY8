@@ -188,7 +188,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:VjGxfGCsTMey9aZvXy2zdA" pcbguid="9329cc0c-2ea9-458a-91f7-0ed3767be766" lastpulledtime="" lastsyncedchangeguid="c08ba1bd-64e9-64fe-0de0-91ac47596278"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:VjGxfGCsTMey9aZvXy2zdA" pcbguid="9329cc0c-2ea9-458a-91f7-0ed3767be766" lastpulledtime="" lastsyncedchangeguid="653f0fd4-dbab-250d-d7aa-35627fae340c"/>
 <plain>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="3" y1="0" x2="62" y2="0" width="0" layer="20"/>
@@ -391,35 +391,6 @@ House</text>
 <text x="54.7" y="28.5" size="1.27" layer="21" font="vector" ratio="15">8</text>
 </plain>
 <libraries>
-<library name="freetronics-master-v1">
-<packages>
-<package name="TERMINALBLOCK_3.5MM_8">
-<wire x1="-1.8" y1="3.4" x2="26.3" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="26.3" y1="3.4" x2="26.3" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="26.3" y1="-2.4" x2="26.3" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="26.3" y1="-3.4" x2="-1.8" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-3.4" x2="-1.8" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-2.4" x2="-1.8" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="26.3" y1="-2.4" x2="-1.8" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-1.35" x2="-2.2" y2="-1.45" width="0.2032" layer="51"/>
-<wire x1="-2.2" y1="-1.45" x2="-2.2" y2="-2.25" width="0.2032" layer="51"/>
-<wire x1="-2.2" y1="-2.25" x2="-1.8" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="26.3" y1="3.15" x2="26.8" y2="3.05" width="0.2032" layer="51"/>
-<wire x1="26.8" y1="3.05" x2="26.8" y2="2.25" width="0.2032" layer="51"/>
-<wire x1="26.8" y1="2.25" x2="26.3" y2="2.15" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2"/>
-<pad name="3" x="7" y="0" drill="1.2"/>
-<pad name="4" x="10.5" y="0" drill="1.2"/>
-<pad name="5" x="14" y="0" drill="1.2"/>
-<pad name="6" x="17.5" y="0" drill="1.2"/>
-<pad name="7" x="21" y="0" drill="1.2"/>
-<pad name="8" x="24.5" y="0" drill="1.2"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="OSHW">
 <packages>
 <package name="OSHW_10X200_NOTEXT">
@@ -455,55 +426,6 @@ House</text>
 <wire x1="3.3155" y1="4.2736" x2="3.9464" y2="4.0175" width="0.254" layer="21" curve="-18.449318"/>
 <wire x1="4.6199" y1="3.3487" x2="4.8997" y2="2.7179" width="0.254" layer="21" curve="-19.303177"/>
 <wire x1="4.9045" y1="1.7692" x2="4.6484" y2="1.0909" width="0.254" layer="21" curve="-20.344696"/>
-</package>
-</packages>
-</library>
-<library name="freetronics-jon">
-<packages>
-<package name="2X6-SHROUDED">
-<wire x1="-1.505" y1="0.635" x2="-1.505" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="5.77" y1="5.02" x2="5.77" y2="-17.72" width="0.2032" layer="21"/>
-<wire x1="-3.23" y1="-17.72" x2="-3.23" y2="-8.55" width="0.2032" layer="21"/>
-<wire x1="-3.23" y1="-8.55" x2="-3.23" y2="-4.15" width="0.2032" layer="21"/>
-<wire x1="-3.23" y1="-4.15" x2="-3.23" y2="5.02" width="0.2032" layer="21"/>
-<wire x1="-3.23" y1="5.02" x2="5.67" y2="5.02" width="0.2032" layer="21"/>
-<wire x1="5.77" y1="-17.72" x2="-3.23" y2="-17.72" width="0.2032" layer="21"/>
-<wire x1="-2.13" y1="3.92" x2="4.67" y2="3.92" width="0.2032" layer="51"/>
-<wire x1="4.67" y1="3.92" x2="4.67" y2="-16.62" width="0.2032" layer="51"/>
-<wire x1="-2.13" y1="-16.62" x2="4.67" y2="-16.62" width="0.2032" layer="51"/>
-<wire x1="-3.23" y1="-4.15" x2="-1.73" y2="-4.15" width="0.2032" layer="21"/>
-<wire x1="-1.73" y1="-4.15" x2="-1.73" y2="-8.55" width="0.2032" layer="21"/>
-<wire x1="-1.73" y1="-8.55" x2="-3.23" y2="-8.55" width="0.2032" layer="21"/>
-<wire x1="-2.13" y1="3.92" x2="-2.13" y2="-4.15" width="0.2032" layer="51"/>
-<wire x1="-2.13" y1="-16.62" x2="-2.13" y2="-8.55" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="2" x="2.54" y="0" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="3" x="0" y="-2.54" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="4" x="2.54" y="-2.54" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="5" x="0" y="-5.08" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="6" x="2.54" y="-5.08" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="7" x="0" y="-7.62" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="8" x="2.54" y="-7.62" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="9" x="0" y="-10.16" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="10" x="2.54" y="-10.16" drill="1.016" shape="octagon" rot="R270"/>
-<text x="-1.651" y="5.334" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<text x="-1.651" y="-18.542" size="0.4064" layer="104">&gt;NAME</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="-2.794" x2="2.794" y2="-2.286" layer="51" rot="R270"/>
-<rectangle x1="-0.254" y1="-2.794" x2="0.254" y2="-2.286" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="-5.334" x2="2.794" y2="-4.826" layer="51" rot="R270"/>
-<rectangle x1="-0.254" y1="-5.334" x2="0.254" y2="-4.826" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="-7.874" x2="2.794" y2="-7.366" layer="51" rot="R270"/>
-<rectangle x1="-0.254" y1="-7.874" x2="0.254" y2="-7.366" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="-10.414" x2="2.794" y2="-9.906" layer="51" rot="R270"/>
-<rectangle x1="-0.254" y1="-10.414" x2="0.254" y2="-9.906" layer="51" rot="R270"/>
-<rectangle x1="-0.254" y1="-7.874" x2="0.254" y2="-7.366" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="-7.874" x2="2.794" y2="-7.366" layer="51" rot="R270"/>
-<pad name="11" x="0" y="-12.7" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="12" x="2.54" y="-12.7" drill="1.016" shape="octagon" rot="R270"/>
-<rectangle x1="-0.254" y1="-12.954" x2="0.254" y2="-12.446" layer="51" rot="R270"/>
-<rectangle x1="2.286" y1="-12.954" x2="2.794" y2="-12.446" layer="51" rot="R270"/>
 </package>
 </packages>
 </library>
@@ -701,12 +623,94 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
 </package>
+<package name="2X6-SHROUDED" urn="urn:adsk.eagle:footprint:11976014/1" library_version="53">
+<wire x1="-1.505" y1="0.635" x2="-1.505" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="5.77" y1="5.02" x2="5.77" y2="-17.72" width="0.2032" layer="21"/>
+<wire x1="-3.23" y1="-17.72" x2="-3.23" y2="-8.55" width="0.2032" layer="21"/>
+<wire x1="-3.23" y1="-8.55" x2="-3.23" y2="-4.15" width="0.2032" layer="21"/>
+<wire x1="-3.23" y1="-4.15" x2="-3.23" y2="5.02" width="0.2032" layer="21"/>
+<wire x1="-3.23" y1="5.02" x2="5.67" y2="5.02" width="0.2032" layer="21"/>
+<wire x1="5.77" y1="-17.72" x2="-3.23" y2="-17.72" width="0.2032" layer="21"/>
+<wire x1="-2.13" y1="3.92" x2="4.67" y2="3.92" width="0.2032" layer="51"/>
+<wire x1="4.67" y1="3.92" x2="4.67" y2="-16.62" width="0.2032" layer="51"/>
+<wire x1="-2.13" y1="-16.62" x2="4.67" y2="-16.62" width="0.2032" layer="51"/>
+<wire x1="-3.23" y1="-4.15" x2="-1.73" y2="-4.15" width="0.2032" layer="21"/>
+<wire x1="-1.73" y1="-4.15" x2="-1.73" y2="-8.55" width="0.2032" layer="21"/>
+<wire x1="-1.73" y1="-8.55" x2="-3.23" y2="-8.55" width="0.2032" layer="21"/>
+<wire x1="-2.13" y1="3.92" x2="-2.13" y2="-4.15" width="0.2032" layer="51"/>
+<wire x1="-2.13" y1="-16.62" x2="-2.13" y2="-8.55" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="2" x="2.54" y="0" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="3" x="0" y="-2.54" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="5" x="0" y="-5.08" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="6" x="2.54" y="-5.08" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="7" x="0" y="-7.62" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="8" x="2.54" y="-7.62" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="9" x="0" y="-10.16" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="10" x="2.54" y="-10.16" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="11" x="0" y="-12.7" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="12" x="2.54" y="-12.7" drill="1.016" shape="octagon" rot="R270"/>
+<text x="-1.651" y="5.334" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-1.651" y="-18.542" size="0.4064" layer="104">&gt;NAME</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51" rot="R270"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51" rot="R270"/>
+<rectangle x1="2.286" y1="-2.794" x2="2.794" y2="-2.286" layer="51" rot="R270"/>
+<rectangle x1="-0.254" y1="-2.794" x2="0.254" y2="-2.286" layer="51" rot="R270"/>
+<rectangle x1="2.286" y1="-5.334" x2="2.794" y2="-4.826" layer="51" rot="R270"/>
+<rectangle x1="-0.254" y1="-5.334" x2="0.254" y2="-4.826" layer="51" rot="R270"/>
+<rectangle x1="2.286" y1="-7.874" x2="2.794" y2="-7.366" layer="51" rot="R270"/>
+<rectangle x1="-0.254" y1="-7.874" x2="0.254" y2="-7.366" layer="51" rot="R270"/>
+<rectangle x1="2.286" y1="-10.414" x2="2.794" y2="-9.906" layer="51" rot="R270"/>
+<rectangle x1="-0.254" y1="-10.414" x2="0.254" y2="-9.906" layer="51" rot="R270"/>
+<rectangle x1="-0.254" y1="-7.874" x2="0.254" y2="-7.366" layer="51" rot="R270"/>
+<rectangle x1="2.286" y1="-7.874" x2="2.794" y2="-7.366" layer="51" rot="R270"/>
+<rectangle x1="-0.254" y1="-12.954" x2="0.254" y2="-12.446" layer="51" rot="R270"/>
+<rectangle x1="2.286" y1="-12.954" x2="2.794" y2="-12.446" layer="51" rot="R270"/>
+</package>
+<package name="SCREWTERMINAL_3.5MM_8" urn="urn:adsk.eagle:footprint:12194854/1" library_version="55">
+<description>8-way screw terminal, 3.5mm pitch</description>
+<wire x1="-1.8" y1="3.4" x2="26.3" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="26.3" y1="3.4" x2="26.3" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="26.3" y1="-2.4" x2="26.3" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="26.3" y1="-3.4" x2="-1.8" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-1.8" y1="-3.4" x2="-1.8" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.8" y1="-2.4" x2="-1.8" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="26.3" y1="-2.4" x2="-1.8" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.8" y1="-1.35" x2="-2.2" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="-1.45" x2="-2.2" y2="-2.25" width="0.2032" layer="51"/>
+<wire x1="-2.2" y1="-2.25" x2="-1.8" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="26.3" y1="3.15" x2="26.8" y2="3.05" width="0.2032" layer="51"/>
+<wire x1="26.8" y1="3.05" x2="26.8" y2="2.25" width="0.2032" layer="51"/>
+<wire x1="26.8" y1="2.25" x2="26.3" y2="2.15" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.2" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2"/>
+<pad name="3" x="7" y="0" drill="1.2"/>
+<pad name="4" x="10.5" y="0" drill="1.2"/>
+<pad name="5" x="14" y="0" drill="1.2"/>
+<pad name="6" x="17.5" y="0" drill="1.2"/>
+<pad name="7" x="21" y="0" drill="1.2"/>
+<pad name="8" x="24.5" y="0" drill="1.2"/>
+<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X10" urn="urn:adsk.eagle:package:11866934/1" type="box" library_version="38">
 <description>1x10 header</description>
 <packageinstances>
 <packageinstance name="1X10"/>
+</packageinstances>
+</package3d>
+<package3d name="2X6-SHROUDED" urn="urn:adsk.eagle:package:11976015/2" type="model" library_version="53">
+<packageinstances>
+<packageinstance name="2X6-SHROUDED"/>
+</packageinstances>
+</package3d>
+<package3d name="SCREWTERMINAL_3.5MM_8" urn="urn:adsk.eagle:package:12194855/2" type="model" library_version="55">
+<description>8-way screw terminal, 3.5mm pitch</description>
+<packageinstances>
+<packageinstance name="SCREWTERMINAL_3.5MM_8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1104,16 +1108,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.876" y="23.199" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="59.166" y="21.1728" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="JP1" library="freetronics-master-v1" package="TERMINALBLOCK_3.5MM_8" value="" x="30.75" y="35.846" smashed="yes" rot="R180">
+<element name="JP1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="SCREWTERMINAL_3.5MM_8" package3d_urn="urn:adsk.eagle:package:12194855/2" value="M08-SCREW-3.5MM" x="30.75" y="35.846" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.226" y="37.116" size="1.016" layer="25"/>
 <attribute name="VALUE" x="32.02" y="34.576" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="JP2" library="freetronics-master-v1" package="TERMINALBLOCK_3.5MM_8" value="" x="58.75" y="35.846" smashed="yes" rot="R180">
+<element name="JP2" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="SCREWTERMINAL_3.5MM_8" package3d_urn="urn:adsk.eagle:package:12194855/2" value="M08-SCREW-3.5MM" x="58.75" y="35.846" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.718" y="37.116" size="1.27" layer="25"/>
 <attribute name="VALUE" x="60.02" y="34.576" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="U$6" library="OSHW" package="OSHW_10X200_NOTEXT" value="" x="15.24" y="27.337" smashed="yes" rot="MR0"/>
-<element name="JP3" library="freetronics-jon" package="2X6-SHROUDED" value="M06X2" x="46.228" y="10.954" smashed="yes" rot="R90">
+<element name="JP3" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="2X6-SHROUDED" package3d_urn="urn:adsk.eagle:package:11976015/2" value="M06X2-SHROUDED" x="46.228" y="10.954" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.77" y="9.303" size="0.4064" layer="104" rot="R90"/>
 <attribute name="VALUE" x="40.894" y="9.303" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
