@@ -1,10 +1,12 @@
 I/O Breakout To 8 Relay Drivers
 ===============================
-Copyright 2017 SuperHouse Pty Ltd  
+Copyright 2017-2019 SuperHouse Pty Ltd  
 SuperHouse site:  www.superhouse.tv  
 
 Breaks out a 2x6 pin header to 8 low-side MOSFETs suitable for switching
 loads such as relays.
+
+![PCB render](IORELAY8-v2_2-render_1.jpg)
 
 Features:
 
