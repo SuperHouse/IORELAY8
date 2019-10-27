@@ -2143,15 +2143,15 @@ Standard 1x8 header, and screw terminal variations</description>
 <part name="R6" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K"/>
 <part name="R7" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K"/>
 <part name="R8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K"/>
-<part name="D1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="D2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="D3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="D4" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="D5" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="D6" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="D7" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="D8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB"/>
-<part name="LED17" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="PWR/GREEN"/>
+<part name="D1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="D2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="D3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="D4" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="D5" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="D6" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="D7" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="D8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA"/>
+<part name="LED9" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="PWR/GREEN"/>
 <part name="GND24" library="freetronics" deviceset="GND" device=""/>
 <part name="R25" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="2K2"/>
 <part name="J1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M08" device="-SCREW-3.5MM" package3d_urn="urn:adsk.eagle:package:12194855/2"/>
@@ -2459,7 +2459,7 @@ Standard 1x8 header, and screw terminal variations</description>
 <attribute name="NAME" x="170.18" y="84.3026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.18" y="82.0166" size="1.778" layer="96"/>
 </instance>
-<instance part="LED17" gate="G$1" x="50.8" y="22.86" smashed="yes">
+<instance part="LED9" gate="G$1" x="50.8" y="22.86" smashed="yes">
 <attribute name="NAME" x="53.848" y="21.844" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.848" y="19.685" size="1.778" layer="96"/>
 </instance>
@@ -2595,7 +2595,7 @@ Standard 1x8 header, and screw terminal variations</description>
 <pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="LED17" gate="G$1" pin="C"/>
+<pinref part="LED9" gate="G$1" pin="C"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -2904,7 +2904,7 @@ Standard 1x8 header, and screw terminal variations</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LED17" gate="G$1" pin="A"/>
+<pinref part="LED9" gate="G$1" pin="A"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 </segment>
 </net>

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24,7 +24,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
@@ -188,7 +188,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:VjGxfGCsTMey9aZvXy2zdA" pcbguid="9329cc0c-2ea9-458a-91f7-0ed3767be766" lastpulledtime="" lastsyncedchangeguid="3fde5301-3637-4670-d87e-b499a66565b8"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:VjGxfGCsTMey9aZvXy2zdA" pcbguid="9329cc0c-2ea9-458a-91f7-0ed3767be766" lastpulledtime="" lastsyncedchangeguid="8a06b20d-9a56-8ff4-575a-4c42820942cb"/>
 <plain>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="3" y1="0" x2="62" y2="0" width="0" layer="20"/>
@@ -249,8 +249,8 @@
 <text x="44.45" y="30.258" size="1.016" layer="51">K</text>
 <text x="51.308" y="30.258" size="1.016" layer="51">K</text>
 <text x="58.42" y="30.258" size="1.016" layer="51">K</text>
-<text x="58.704" y="1.808" size="1.016" layer="51" rot="R90">K</text>
-<text x="53.848" y="2.492" size="1.016" layer="51" rot="R270">A</text>
+<text x="57.808" y="1.796" size="1.016" layer="51">K</text>
+<text x="54.008" y="1.848" size="1.016" layer="51">A</text>
 <text x="44.196" y="21.876" size="1.27" layer="21" font="vector" ratio="16">5V</text>
 <text x="44.45" y="20.606" size="1.016" layer="21" font="vector" ratio="16">COMPATIBLE</text>
 <wire x1="46.482" y1="22.638" x2="46.99" y2="22.13" width="0.3048" layer="21"/>
@@ -389,6 +389,22 @@ House</text>
 <text x="40.7" y="28.5" size="1.27" layer="21" font="vector" ratio="15">6</text>
 <text x="47.7" y="28.5" size="1.27" layer="21" font="vector" ratio="15">7</text>
 <text x="54.7" y="28.5" size="1.27" layer="21" font="vector" ratio="15">8</text>
+<text x="1.334" y="16.758" size="1.016" layer="51">A</text>
+<text x="6.834" y="16.758" size="1.016" layer="51">A</text>
+<text x="11.834" y="16.758" size="1.016" layer="51">A</text>
+<text x="16.834" y="16.758" size="1.016" layer="51">A</text>
+<text x="21.834" y="16.758" size="1.016" layer="51">A</text>
+<text x="26.834" y="16.758" size="1.016" layer="51">A</text>
+<text x="31.834" y="16.758" size="1.016" layer="51">A</text>
+<text x="36.834" y="16.758" size="1.016" layer="51">A</text>
+<text x="1.628" y="21.258" size="1.016" layer="51">K</text>
+<text x="6.628" y="21.258" size="1.016" layer="51">K</text>
+<text x="11.628" y="21.258" size="1.016" layer="51">K</text>
+<text x="16.628" y="21.258" size="1.016" layer="51">K</text>
+<text x="22.128" y="21.258" size="1.016" layer="51">K</text>
+<text x="27.128" y="21.258" size="1.016" layer="51">K</text>
+<text x="32.128" y="21.258" size="1.016" layer="51">K</text>
+<text x="37.128" y="21.258" size="1.016" layer="51">K</text>
 </plain>
 <libraries>
 <library name="OSHW">
@@ -724,7 +740,7 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="SuperHouse-Design-Rules">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -732,13 +748,9 @@ die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
 Einstellungen hier und speichern die Design Rules unter 
 einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<description language="en">&lt;b&gt;SuperHouse Design Rules&lt;/b&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+These rules have been set to have limits that are safe for most board fabs, while still allowing polygon pours into most places. Vias 0.5mm and smaller are tented.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
@@ -748,16 +760,16 @@ design rules under a new name.</description>
 <param name="mdPadPad" value="8mil"/>
 <param name="mdPadVia" value="8mil"/>
 <param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="18mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="10mil"/>
-<param name="msDrill" value="19mil"/>
+<param name="msDrill" value="24mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -773,9 +785,9 @@ design rules under a new name.</description>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -792,7 +804,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.5mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -909,203 +921,203 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="R9" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="3.302" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.445" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="3.055" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.0292" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="3.302" y="13.24" smashed="yes">
-<attribute name="NAME" x="2.4765" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="2.4765" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="1.27" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R17" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="3.302" y="8.668" smashed="yes">
-<attribute name="NAME" x="4.445" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="2.055" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="3.4892" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R10" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="8.382" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.525" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="7.975" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="11.1092" y="8.43" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="8.382" y="13.24" smashed="yes">
-<attribute name="NAME" x="7.5565" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="7.5565" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="6.35" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R18" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="8.382" y="8.668" smashed="yes">
-<attribute name="NAME" x="9.525" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="6.975" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.5692" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R11" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="13.462" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.605" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="12.895" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="16.1892" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="13.462" y="13.24" smashed="yes">
-<attribute name="NAME" x="12.6365" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="12.6365" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="11.43" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R19" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="13.462" y="8.668" smashed="yes">
-<attribute name="NAME" x="14.605" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="12.395" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.1492" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R12" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="18.542" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.685" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="18.315" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="21.2692" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q4" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="18.542" y="13.24" smashed="yes">
-<attribute name="NAME" x="17.7165" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="17.7165" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="16.51" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R20" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="18.542" y="8.668" smashed="yes">
-<attribute name="NAME" x="19.685" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="17.315" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="19.2292" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R13" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="23.622" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="24.765" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="23.235" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="26.3492" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q5" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="23.622" y="13.24" smashed="yes">
-<attribute name="NAME" x="22.7965" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="22.7965" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="21.59" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R21" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="23.622" y="8.668" smashed="yes">
-<attribute name="NAME" x="24.765" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="22.235" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="23.8092" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R14" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="28.702" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="29.845" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="28.155" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="31.4292" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q6" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="28.702" y="13.24" smashed="yes">
-<attribute name="NAME" x="27.8765" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="27.8765" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="26.67" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R22" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="28.702" y="8.668" smashed="yes">
-<attribute name="NAME" x="29.845" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="27.155" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="29.3892" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R15" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="33.782" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.925" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.075" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.5092" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q7" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="33.782" y="13.24" smashed="yes">
-<attribute name="NAME" x="32.9565" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="32.9565" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="31.75" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R23" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="33.782" y="8.668" smashed="yes">
-<attribute name="NAME" x="34.925" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="32.575" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="34.4692" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R16" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="10K" x="38.862" y="10.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.005" y="10.192" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="37.995" y="10.808" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="41.5892" y="8.93" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:11815952/3" value="2N7002" x="38.862" y="13.24" smashed="yes">
-<attribute name="NAME" x="38.2905" y="14.256" size="1.27" layer="25"/>
+<attribute name="NAME" x="37.7905" y="12.756" size="1.016" layer="25"/>
 <attribute name="VALUE" x="36.83" y="14.0655" size="0.8128" layer="27"/>
 </element>
 <element name="R24" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="38.862" y="8.668" smashed="yes">
-<attribute name="NAME" x="40.005" y="8.16" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="37.495" y="6.84" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="39.0492" y="5.906" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="LED2" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH2/RED" x="15" y="31" smashed="yes">
-<attribute name="NAME" x="12.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="13.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="12.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="LED3" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH3/RED" x="22" y="31" smashed="yes">
-<attribute name="NAME" x="19.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="20.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="19.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="LED4" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH4/RED" x="29" y="31" smashed="yes">
-<attribute name="NAME" x="26.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="27.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="26.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="LED1" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH1/RED" x="8" y="31" smashed="yes">
-<attribute name="NAME" x="5.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="6.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="5.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="R1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="8" y="28.734" smashed="yes">
-<attribute name="NAME" x="7.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="5.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="15" y="28.734" smashed="yes">
-<attribute name="NAME" x="14.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="12.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="13.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="22" y="28.734" smashed="yes">
-<attribute name="NAME" x="21.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="19.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="20.238" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R4" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="29" y="28.734" smashed="yes">
-<attribute name="NAME" x="28.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="26.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="27.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="LED5" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH5/RED" x="36" y="31" smashed="yes">
-<attribute name="NAME" x="33.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="34.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="33.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="LED6" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH6/RED" x="43" y="31" smashed="yes">
-<attribute name="NAME" x="40.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="41.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="40.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="LED7" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH7/RED" x="50" y="31" smashed="yes">
-<attribute name="NAME" x="47.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="48.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="47.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="LED8" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="CH8/RED" x="57" y="31" smashed="yes">
-<attribute name="NAME" x="54.841" y="31.5588" size="1.27" layer="25"/>
+<attribute name="NAME" x="55.341" y="31.5588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="54.46" y="31.5588" size="0.8128" layer="27"/>
 </element>
 <element name="R5" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="36" y="28.734" smashed="yes">
-<attribute name="NAME" x="35.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="33.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="34.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R6" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="43" y="28.734" smashed="yes">
-<attribute name="NAME" x="42.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="40.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="41.238" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R7" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="50" y="28.734" smashed="yes">
-<attribute name="NAME" x="49.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="47.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="48.738" y="26.7608" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="1K" x="57" y="28.734" smashed="yes">
-<attribute name="NAME" x="56.111" y="26.702" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="54.111" y="28.202" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="55.238" y="27.0068" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="D1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="3.302" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.191" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="3.302" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="6.731" y="18.955" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="D2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="8.382" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.271" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="8.382" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.271" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="11.811" y="20.733" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="D3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="13.462" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.351" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="13.462" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.351" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="16.891" y="18.955" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="D4" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="18.542" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.431" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D4" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="18.542" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.431" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="21.971" y="20.479" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="D5" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="23.622" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.511" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D5" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="23.622" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.511" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="27.051" y="18.955" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="D6" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="28.702" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.591" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D6" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="28.702" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.591" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.131" y="20.479" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="D7" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="33.782" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.671" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D7" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="33.782" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.671" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="37.211" y="18.955" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="D8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMB" x="38.862" y="19.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.751" y="19.971" size="1.27" layer="25" rot="R180"/>
+<element name="D8" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:7066222/3" value="1N4004 SMA" x="38.862" y="19.336" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.751" y="19.971" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.291" y="20.479" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="LED17" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="PWR/GREEN" x="56.22" y="2.2" smashed="yes">
-<attribute name="NAME" x="56.0168" y="5.756" size="0.8128" layer="25" rot="R270"/>
+<element name="LED9" library="SuperHouse-LEDs" library_urn="urn:adsk.eagle:library:11790571" package="LED-0603" package3d_urn="urn:adsk.eagle:package:7066240/3" value="PWR/GREEN" x="56.22" y="2.2" smashed="yes">
+<attribute name="NAME" x="55.744" y="3.0168" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="48.41" y="3.2628" size="1.27" layer="27"/>
 </element>
 <element name="R25" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" package="R0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="2K2" x="61.13" y="20.532" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.876" y="23.199" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="60.301" y="21.376" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="59.166" y="21.1728" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="J1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="SCREWTERMINAL_3.5MM_8" package3d_urn="urn:adsk.eagle:package:12194855/2" value="M08-SCREW-3.5MM" x="30.75" y="35.846" smashed="yes" rot="R180">
@@ -1113,7 +1125,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.02" y="34.576" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="J2" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="SCREWTERMINAL_3.5MM_8" package3d_urn="urn:adsk.eagle:package:12194855/2" value="M08-SCREW-3.5MM" x="58.75" y="35.846" smashed="yes" rot="R180">
-<attribute name="NAME" x="56.718" y="37.116" size="1.27" layer="25"/>
+<attribute name="NAME" x="56.718" y="37.116" size="1.016" layer="25"/>
 <attribute name="VALUE" x="60.02" y="34.576" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="U$6" library="OSHW" package="OSHW_10X200_NOTEXT" value="" x="15.24" y="27.337" smashed="yes" rot="MR0"/>
@@ -1144,7 +1156,7 @@ design rules under a new name.</description>
 <contactref element="R15" pad="1"/>
 <contactref element="Q8" pad="2"/>
 <contactref element="R16" pad="1"/>
-<contactref element="LED17" pad="C"/>
+<contactref element="LED9" pad="C"/>
 <polygon width="0.4064" layer="16">
 <vertex x="0" y="42" curve="-90"/>
 <vertex x="3" y="45"/>
@@ -1190,7 +1202,6 @@ design rules under a new name.</description>
 <contactref element="Q1" pad="1"/>
 <contactref element="R9" pad="2"/>
 <contactref element="R17" pad="1"/>
-<wire x1="2.286" y1="12.174" x2="2.352" y2="12.24" width="0.4064" layer="1"/>
 <wire x1="2.54" y1="8.668" x2="2.54" y2="10.446" width="0.3048" layer="1"/>
 <wire x1="2.54" y1="10.446" x2="2.352" y2="10.634" width="0.254" layer="1"/>
 <wire x1="2.352" y1="10.634" x2="2.352" y2="12.24" width="0.3048" layer="1"/>
@@ -1244,7 +1255,6 @@ design rules under a new name.</description>
 <contactref element="D2" pad="A"/>
 <contactref element="J1" pad="5"/>
 <wire x1="8.382" y1="14.34" x2="8.382" y2="17.186" width="0.6096" layer="1"/>
-<wire x1="8.382" y1="17.186" x2="8.382" y2="17.304" width="0.6096" layer="1"/>
 <wire x1="8.382" y1="17.186" x2="10.922" y2="19.676" width="0.6096" layer="1"/>
 <wire x1="10.922" y1="19.676" x2="10.922" y2="25.922" width="0.6096" layer="1"/>
 <wire x1="16.75" y1="35.846" x2="16.75" y2="34.25" width="0.6096" layer="1"/>
@@ -1260,7 +1270,6 @@ design rules under a new name.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="Q2" pad="1"/>
 <contactref element="R18" pad="1"/>
-<wire x1="7.366" y1="12.174" x2="7.432" y2="12.24" width="0.4064" layer="1"/>
 <wire x1="7.62" y1="8.668" x2="7.62" y2="10.446" width="0.3048" layer="1"/>
 <wire x1="7.62" y1="10.446" x2="7.432" y2="10.634" width="0.254" layer="1"/>
 <wire x1="7.432" y1="10.634" x2="7.432" y2="12.24" width="0.3048" layer="1"/>
@@ -1271,7 +1280,6 @@ design rules under a new name.</description>
 <contactref element="D3" pad="A"/>
 <contactref element="J1" pad="3"/>
 <wire x1="13.462" y1="14.34" x2="13.462" y2="17.186" width="0.6096" layer="1"/>
-<wire x1="13.462" y1="17.186" x2="13.462" y2="17.304" width="0.6096" layer="1"/>
 <wire x1="13.462" y1="17.186" x2="16.002" y2="19.676" width="0.6096" layer="1"/>
 <wire x1="16.002" y1="19.676" x2="16.002" y2="25.002" width="0.6096" layer="1"/>
 <wire x1="23.75" y1="35.846" x2="23.75" y2="34.25" width="0.6096" layer="1"/>
@@ -1287,7 +1295,6 @@ design rules under a new name.</description>
 <contactref element="R11" pad="2"/>
 <contactref element="Q3" pad="1"/>
 <contactref element="R19" pad="1"/>
-<wire x1="12.446" y1="12.174" x2="12.512" y2="12.24" width="0.4064" layer="1"/>
 <wire x1="12.7" y1="8.668" x2="12.7" y2="10.446" width="0.3048" layer="1"/>
 <wire x1="12.7" y1="10.446" x2="12.512" y2="10.634" width="0.254" layer="1"/>
 <wire x1="12.512" y1="10.634" x2="12.512" y2="12.24" width="0.3048" layer="1"/>
@@ -1298,7 +1305,6 @@ design rules under a new name.</description>
 <contactref element="D4" pad="A"/>
 <contactref element="J1" pad="1"/>
 <wire x1="18.542" y1="14.34" x2="18.542" y2="17.186" width="0.6096" layer="1"/>
-<wire x1="18.542" y1="17.186" x2="18.542" y2="17.304" width="0.6096" layer="1"/>
 <wire x1="18.542" y1="17.186" x2="21.082" y2="19.676" width="0.6096" layer="1"/>
 <wire x1="21.082" y1="19.676" x2="21.082" y2="23.67" width="0.6096" layer="1"/>
 <wire x1="30.75" y1="35.846" x2="30.75" y2="34.25" width="0.6096" layer="1"/>
@@ -1314,7 +1320,6 @@ design rules under a new name.</description>
 <contactref element="R12" pad="2"/>
 <contactref element="Q4" pad="1"/>
 <contactref element="R20" pad="1"/>
-<wire x1="17.526" y1="12.174" x2="17.592" y2="12.24" width="0.4064" layer="1"/>
 <wire x1="17.78" y1="8.668" x2="17.78" y2="10.446" width="0.3048" layer="1"/>
 <wire x1="17.78" y1="10.446" x2="17.592" y2="10.634" width="0.254" layer="1"/>
 <wire x1="17.592" y1="10.634" x2="17.592" y2="12.24" width="0.3048" layer="1"/>
@@ -1379,7 +1384,6 @@ design rules under a new name.</description>
 <contactref element="D7" pad="A"/>
 <contactref element="J2" pad="3"/>
 <wire x1="33.782" y1="14.34" x2="33.782" y2="17.186" width="0.6096" layer="1"/>
-<wire x1="33.782" y1="17.186" x2="33.868" y2="17.136" width="0.6096" layer="1"/>
 <wire x1="33.782" y1="17.186" x2="36.322" y2="19.676" width="0.6096" layer="1"/>
 <wire x1="36.322" y1="19.676" x2="36.322" y2="23.4" width="0.6096" layer="1"/>
 <wire x1="36.322" y1="23.4" x2="38.922" y2="26" width="0.6096" layer="1"/>
@@ -1405,7 +1409,6 @@ design rules under a new name.</description>
 <contactref element="D8" pad="A"/>
 <contactref element="J2" pad="1"/>
 <wire x1="38.862" y1="14.34" x2="38.862" y2="17.186" width="0.6096" layer="1"/>
-<wire x1="38.862" y1="17.186" x2="38.948" y2="17.136" width="0.6096" layer="1"/>
 <wire x1="38.862" y1="17.186" x2="41.402" y2="19.676" width="0.6096" layer="1"/>
 <wire x1="58.75" y1="35.846" x2="58.75" y2="34.25" width="0.6096" layer="1"/>
 <wire x1="58.75" y1="34.25" x2="59" y2="34" width="0.6096" layer="1"/>
@@ -1466,7 +1469,7 @@ design rules under a new name.</description>
 <wire x1="56.238" y1="28.734" x2="57.762" y2="31" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="LED17" pad="A"/>
+<contactref element="LED9" pad="A"/>
 <contactref element="R25" pad="1"/>
 <wire x1="61.892" y1="20.532" x2="62.5" y2="19.924" width="0.3048" layer="1"/>
 <wire x1="62.5" y1="19.924" x2="62.5" y2="9.5" width="0.3048" layer="1"/>
@@ -1701,42 +1704,18 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,13090a3b0cbf11ed"/>
-<approved hash="5,1,d1b9c40fc2ebd33d"/>
-<approved hash="5,1,13092a3b2cbf11ed"/>
-<approved hash="5,1,51b92c0f2aeb533d"/>
-<approved hash="5,1,d309d23bd4bfd1ed"/>
-<approved hash="5,1,11b90c0f0aeb133d"/>
-<approved hash="19,1,9015eb1dba7a3663"/>
-<approved hash="19,1,6c7361119562db25"/>
-<approved hash="19,1,b043b691a7c45607"/>
-<approved hash="19,1,d4ef9a0606000a51"/>
-<approved hash="19,1,670d1c1c1a7b967b"/>
-<approved hash="19,1,637167d14d15e514"/>
-<approved hash="19,1,59445f9087c57600"/>
-<approved hash="19,1,9c46d1e808425cd4"/>
-<approved hash="5,1,d3092a3b2cbcd1ee"/>
-<approved hash="5,1,d1b9240f22ebd33d"/>
-<approved hash="5,1,53094a3b4cbf51ed"/>
-<approved hash="5,1,11b90c0f0aeb133d"/>
-<approved hash="5,16,13090a3b0cbf11ed"/>
-<approved hash="19,16,b31d8fa5d0094846"/>
-<approved hash="5,16,d1b9c40fc2ebd33d"/>
-<approved hash="19,16,afceabe4c0c7beee"/>
-<approved hash="5,16,13092a3b2cbf11ed"/>
-<approved hash="19,16,ee836b53f27979a8"/>
-<approved hash="19,16,c0c13ad10a7f0498"/>
-<approved hash="19,16,6df6e1a6a40adcad"/>
-<approved hash="5,16,51b92c0f2aeb533d"/>
-<approved hash="19,16,23a8fa9a8d4dc48c"/>
-<approved hash="5,16,d309d23bd4bfd1ed"/>
-<approved hash="5,16,11b90c0f0aeb133d"/>
-<approved hash="5,16,d3092a3b2cbcd1ee"/>
-<approved hash="5,16,d1b9240f22ebd33d"/>
-<approved hash="5,16,53094a3b4cbf51ed"/>
-<approved hash="5,16,11b90c0f0aeb133d"/>
-<approved hash="5,16,df87cc1bc999dced"/>
-<approved hash="5,16,1d99068101eb1c1b"/>
+<approved hash="1,20,945455a4559c946c"/>
+<approved hash="1,20,83f068006e0c85fc"/>
+<approved hash="1,20,602a50da4c2c7cdc"/>
+<approved hash="1,20,802a7fda7ec98139"/>
+<approved hash="1,20,17f0b000b60c11fc"/>
+<approved hash="1,20,cbf030003609cdf9"/>
+<approved hash="1,20,c7f648064e09c1f9"/>
+<approved hash="1,20,e3f1d801de0de5fd"/>
+<approved hash="1,20,97f07000760c91fc"/>
+<approved hash="1,20,dbf0f000f603ddf3"/>
+<approved hash="1,20,c7f138013e11c1e1"/>
+<approved hash="1,20,e62adfdadecee73e"/>
 </errors>
 </board>
 </drawing>
